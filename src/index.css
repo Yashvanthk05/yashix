@@ -8,57 +8,27 @@
   --peach: #fe640b;
   --yellow: #df8e1d;
   --green: #40a02b;
-  --teal: #179299;
+  --teal: #663cff;
   --sky: #04a5e5;
   --sapphire: #209fb5;
-  --blue: #1e66f5;
-  --lavender: #7287fd;
+  --blue: #1e3ef5;
+  --lavender: #000000;
   --text: #4c4f69;
   --subtext1: #5c5f77;
   --subtext0: #6c6f85;
   --overlay2: #7c7f93;
-  --overlay1: #8c8fa1;
+  --overlay1: #5d6070;
   --overlay0: #9ca0b0;
-  --surface2: #ccd0da;
-  --surface1: #dce0e8;
-  --surface0: #eff1f5;
-  --base: #ffffff;
+  --surface2: #acb0be;
+  --surface1: #bcc0cc;
+  --surface0: #ccd0da;
+  --base: #eff1f5;
   --mantle: #e6e9ef;
   --crust: #dce0e8;
 }
 
-@media(prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
   :root {
-  --rosewater: #f5e0dc;
-  --flamingo: #f2cdcd;
-  --pink: #f5c2e7;
-  --mauve: #cba6f7;
-  --red: #f38ba8;
-  --maroon: #eba0ac;
-  --peach: #fab387;
-  --yellow: #f9e2af;
-  --green: #a6e3a1;
-  --teal: #94e2d5;
-  --sky: #89dceb;
-  --sapphire: #74c7ec;
-  --blue: #89b4fa;
-  --lavender: #b4befe;
-  --text: #cdd6f4;
-  --subtext1: #bac2de;
-  --subtext0: #a6adc8;
-  --overlay2: #9399b2;
-  --overlay1: #7f849c;
-  --overlay0: #6c7086;
-  --surface2: #585b70;
-  --surface1: #45475a;
-  --surface0: #313244;
-  --base: #1e1e2e;
-  --mantle: #181825;
-  --crust: #11111b;
-  }
-}
-
-[data-theme='dark']{
     --rosewater: #f5e0dc;
     --flamingo: #f2cdcd;
     --pink: #f5c2e7;
@@ -85,38 +55,68 @@
     --base: #1e1e2e;
     --mantle: #181825;
     --crust: #11111b;
+  }
 }
 
-[data-theme='light']{
-    --rosewater: #dc8a78;
-    --flamingo: #dd7878;
-    --pink: #ea76cb;
-    --mauve: #8839ef;
-    --red: #d20f39;
-    --maroon: #e64553;
-    --peach: #fe640b;
-    --yellow: #df8e1d;
-    --green: #40a02b;
-    --teal: #179299;
-    --sky: #04a5e5;
-    --sapphire: #209fb5;
-    --blue: #1e66f5;
-    --lavender: #7287fd;
-    --text: #4c4f69;
-    --subtext1: #5c5f77;
-    --subtext0: #6c6f85;
-    --overlay2: #7c7f93;
-    --overlay1: #8c8fa1;
-    --overlay0: #9ca0b0;
-    --surface2: #ccd0da;
-    --surface1: #dce0e8;
-    --surface0: #eff1f5;
-    --base: #ffffff;
-    --mantle: #e6e9ef;
-    --crust: #dce0e8;
+[data-theme="dark"] {
+  --rosewater: #f5e0dc;
+  --flamingo: #f2cdcd;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --red: #f38ba8;
+  --maroon: #eba0ac;
+  --peach: #fab387;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --teal: #94e2d5;
+  --sky: #89dceb;
+  --sapphire: #74c7ec;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+  --text: #cdd6f4;
+  --subtext1: #bac2de;
+  --subtext0: #a6adc8;
+  --overlay2: #9399b2;
+  --overlay1: #7f849c;
+  --overlay0: #6c7086;
+  --surface2: #585b70;
+  --surface1: #45475a;
+  --surface0: #313244;
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --crust: #11111b;
 }
 
-*{
+[data-theme="light"] {
+  --rosewater: #dc8a78;
+  --flamingo: #dd7878;
+  --pink: #ea76cb;
+  --mauve: #8839ef;
+  --red: #d20f39;
+  --maroon: #e64553;
+  --peach: #fe640b;
+  --yellow: #df8e1d;
+  --green: #40a02b;
+  --teal: #663cff;
+  --sky: #04a5e5;
+  --sapphire: #209fb5;
+  --blue: #1e3ef5;
+  --lavender: #000000;
+  --text: #4c4f69;
+  --subtext1: #5c5f77;
+  --subtext0: #6c6f85;
+  --overlay2: #7c7f93;
+  --overlay1: #717483;
+  --overlay0: #9ca0b0;
+  --surface2: #acb0be;
+  --surface1: #bcc0cc;
+  --surface0: #ccd0da;
+  --base: #eff1f5;
+  --mantle: #e6e9ef;
+  --crust: #dce0e8;
+}
+
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -124,8 +124,8 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -134,52 +134,52 @@ body {
   height: 100%;
 }
 
-.app{
+.app {
   height: 100dvh;
   display: flex;
   flex-direction: column;
 }
 
-nav{
+nav {
   display: flex;
   background-color: var(--mantle);
   align-items: center;
   justify-content: space-between;
   padding: 0px 25px;
-  border-bottom:1px solid var(--surface0);
+  border-bottom: 1px solid var(--surface0);
   height: 60px;
 }
 
-ul{
+ul {
   display: flex;
   list-style: none;
   gap: 15px;
 }
 
-#banner{
+#banner {
   font-weight: 600;
   font-size: 22px;
   color: var(--blue);
 }
 
-.navicon{
+.navicon {
   color: var(--surface2);
   height: 22px;
   width: 22px;
   transition: all 250ms ease;
 }
 
-.navicon:hover{
+.navicon:hover {
   color: var(--subtext0);
 }
 
-#page{
+#page {
   display: flex;
   flex: 1;
   overflow: hidden;
 }
 
-#sidebar{
+#sidebar {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -187,7 +187,7 @@ ul{
   padding: 75px 50px;
 }
 
-#content{
+#content {
   flex: 1;
   background-color: var(--base);
   margin: 10px;
@@ -208,23 +208,23 @@ ul{
   border-radius: 10px;
 }
 
-#pf{
+#pf {
   height: 150px;
   border-radius: 50%;
 }
 
-#name{
+#name {
   font-weight: 600;
   color: var(--lavender);
   font-size: 20px;
 }
 
-#honor{
+#honor {
   font-size: 12px;
   color: var(--overlay1);
 }
 
-.cv{
+.cv {
   width: 100%;
   background-color: var(--base);
   border: 1px solid var(--surface2);
@@ -233,11 +233,11 @@ ul{
   transition: all 100ms ease;
 }
 
-.cv:hover{
+.cv:hover {
   background-color: var(--surface0);
 }
 
-a{
+a {
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -246,12 +246,12 @@ a{
   cursor: pointer;
 }
 
-.cv>a{
+.cv > a {
   font-size: 14px;
   color: var(--lavender);
 }
 
-.sideless{
+.sideless {
   padding-top: 20px;
   width: 100%;
   color: var(--overlay1);
@@ -260,30 +260,31 @@ a{
   gap: 10px;
 }
 
-.sideless>p{
+.sideless > p {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.sideless>p>a,.prodesc{
+.sideless > p > a,
+.prodesc {
   color: var(--overlay1);
 }
 
-hr{
-  border:none;
+hr {
+  border: none;
   border-top: 2px solid var(--surface0);
   margin: 20px 10px;
 }
 
-.sechead{
+.sechead {
   color: var(--teal);
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-#eduicon{
+#eduicon {
   height: 90px;
   width: 85px;
   background-color: white;
@@ -291,20 +292,20 @@ hr{
   padding: 5px;
 }
 
-.eduname{
+.eduname {
   color: var(--lavender);
   font-weight: 600;
 }
 
-.section{
+.section {
   width: 100%;
 }
 
-.light{
+.light {
   color: var(--overlay1);
 }
 
-.con{
+.con {
   padding: 15px;
   background-color: var(--mantle);
   border-radius: 10px;
@@ -313,7 +314,7 @@ hr{
   flex-direction: column;
 }
 
-.tech{
+.tech {
   font-size: 14px;
   border-radius: 20px;
   padding: 5px 10px;
