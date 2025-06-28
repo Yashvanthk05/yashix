@@ -1,8 +1,8 @@
-import React from "react";
-import { sidedata, socialdata } from "../models";
-import { ArrowDownToLine } from "lucide-react";
-import { CiLocationOn, CiMail } from "react-icons/ci";
-import { IoCallOutline } from "react-icons/io5";
+import React from 'react';
+import { sidedata, socialdata } from '../models';
+import { ArrowDownToLine } from 'lucide-react';
+import { CiLocationOn, CiMail } from 'react-icons/ci';
+import { IoCallOutline } from 'react-icons/io5';
 
 const Sidebar = () => {
   return (

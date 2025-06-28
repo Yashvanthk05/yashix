@@ -1,5 +1,5 @@
-import React from "react";
-import { edudata } from "../models";
+import React from 'react';
+import { edudata } from '../models';
 
 const Education = () => {
   return (
@@ -7,31 +7,28 @@ const Education = () => {
       <p className="sechead">Education</p>
       <ul
         style={{
-          flexDirection: "column",
-          alignItems: "start",
-          minWidth: "100%",
+          flexDirection: 'column',
+          alignItems: 'start',
+          minWidth: '100%',
         }}
       >
         {edudata.map((data, index) => (
-          <li key={index} style={{ width: "100%" }}>
-            <div
-              className="con"
-              style={{ display: "flex", gap: 10, width: "100%" }}
-            >
+          <li key={index} style={{ width: '100%' }}>
+            <div className="con" style={{ display: 'flex', gap: 10, width: '100%' }}>
               {/* <a href={data.link}><img src={data.logo} id='eduicon' /></a> */}
               <div
                 style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  width: "100%",
+                  display: 'flex',
+                  flexDirection: 'column',
+                  width: '100%',
                 }}
               >
                 <div
                   style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    width: "100%",
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    width: '100%',
                   }}
                 >
                   <a className="eduname" href={data.link}>

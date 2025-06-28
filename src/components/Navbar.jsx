@@ -1,13 +1,11 @@
-import { useEffect, useState } from "react";
-import { IoMdMoon, IoMdSunny } from "react-icons/io";
+import { useEffect, useState } from 'react';
+import { IoMdMoon, IoMdSunny } from 'react-icons/io';
 
 const Navbar = () => {
   const getTheme = () => {
-    const theme = localStorage.getItem("theme");
+    const theme = localStorage.getItem('theme');
     if (!theme) {
-      return window.matchMedia("(prefers-color-scheme: light)").matches
-        ? "light"
-        : "dark";
+      return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
     } else {
       return theme;
     }
@@ -16,28 +14,28 @@ const Navbar = () => {
   const [theme, setTheme] = useState(getTheme);
 
   useEffect(() => {
-    localStorage.setItem("theme", theme);
-    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem('theme', theme);
+    document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);
 
   return (
     <nav>
       <p id="banner">Yashix</p>
-      {theme === "light" ? (
+      {theme === 'light' ? (
         <button
           style={{
-            cursor: "pointer",
-            border: "none",
-            backgroundColor: "transparent",
+            cursor: 'pointer',
+            border: 'none',
+            backgroundColor: 'transparent',
           }}
-          onClick={() => setTheme("dark")}
+          onClick={() => setTheme('dark')}
         >
           <IoMdSunny size={22} color="black" />
         </button>
       ) : (
         <button
-          style={{ border: "none", backgroundColor: "transparent" }}
-          onClick={() => setTheme("light")}
+          style={{ border: 'none', backgroundColor: 'transparent' }}
+          onClick={() => setTheme('light')}
         >
           <IoMdMoon size={22} color="white" />
         </button>

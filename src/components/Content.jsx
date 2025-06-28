@@ -1,8 +1,8 @@
-import React from "react";
-import About from "./About";
-import Education from "./Education";
-import Experience from "./Experience";
-import Projects from "./Projects";
+import React from 'react';
+import About from './About';
+import Education from './Education';
+import Experience from './Experience';
+import Projects from './Projects';
 
 const Content = () => {
   return (

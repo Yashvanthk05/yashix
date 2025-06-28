@@ -58,7 +58,7 @@
   }
 }
 
-[data-theme="dark"] {
+[data-theme='dark'] {
   --rosewater: #f5e0dc;
   --flamingo: #f2cdcd;
   --pink: #f5c2e7;
@@ -87,7 +87,7 @@
   --crust: #11111b;
 }
 
-[data-theme="light"] {
+[data-theme='light'] {
   --rosewater: #dc8a78;
   --flamingo: #dd7878;
   --pink: #ea76cb;
@@ -124,9 +124,8 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--crust);
