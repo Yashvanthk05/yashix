@@ -34,7 +34,7 @@ const Navbar = () => {
         </button>
       ) : (
         <button
-          style={{ border: 'none', backgroundColor: 'transparent' }}
+          style={{ cursor: 'pointer', border: 'none', backgroundColor: 'transparent' }}
           onClick={() => setTheme('light')}
         >
           <IoMdMoon size={22} color="white" />
