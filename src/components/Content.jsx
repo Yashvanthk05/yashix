@@ -3,6 +3,9 @@ import About from './About';
 import Education from './Education';
 import Experience from './Experience';
 import Projects from './Projects';
+import Certification from './Certification';
+import Modal from './Modal';
+import Achievements from './Achievements';
 
 const Content = () => {
   return (
@@ -14,6 +17,10 @@ const Content = () => {
       <Experience />
       <hr />
       <Projects />
+      <hr/>
+      <Certification/>
+      <hr/>
+      <Achievements/>
     </div>
   );
 };

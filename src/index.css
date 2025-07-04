@@ -97,22 +97,22 @@
   --peach: #fe640b;
   --yellow: #df8e1d;
   --green: #40a02b;
-  --teal: #663cff;
+  --teal: #000000;
   --sky: #04a5e5;
   --sapphire: #209fb5;
-  --blue: #1e3ef5;
+  --blue: #000000;
   --lavender: #000000;
   --text: #4c4f69;
   --subtext1: #5c5f77;
   --subtext0: #6c6f85;
   --overlay2: #7c7f93;
-  --overlay1: #717483;
+  --overlay1: #5b5c5e;
   --overlay0: #9ca0b0;
   --surface2: #acb0be;
   --surface1: #bcc0cc;
   --surface0: #ccd0da;
-  --base: #eff1f5;
-  --mantle: #e6e9ef;
+  --base: #f7f7f7;
+  --mantle: #eeeff1;
   --crust: #dce0e8;
 }
 
@@ -319,4 +319,90 @@ hr {
   padding: 5px 10px;
   background-color: var(--surface0);
   color: var(--overlay1);
+}
+
+.certimg{
+  height: 130px;
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#certificates{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.modal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  background-color: var(--surface0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  border-radius: 6px;
+}
+
+.modal-close{
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.modalimg{
+  max-height: 70%;
+  max-width: 80%;
+}
+
+.modal-title{
+  color: var(--lavender);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: 600;
+}
+
+.sidetop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width:850px){
+  #sidebar{
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+  }
+  #name{
+    font-size: 16px;
+  }
+  .cv{
+    width: fit-content;
+  }
+  #pf{
+    height: 150px;
+  }
+  .sidetop{
+    flex-direction: column;
+  }
+  .sideless{
+    flex-direction: column;
+    font-size: 12px;
+  }
+  #page{
+    flex-direction: column;
+  }
 }

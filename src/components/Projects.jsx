@@ -1,10 +1,10 @@
 import React from 'react';
-import { prodata } from '../models';
+import { prodata, socialdata } from '../models';
 
 const Projects = () => {
   return (
     <div className="section">
-      <p className="sechead">Projects</p>
+      <p className="sechead" style={{display:'flex',gap:10,alignItems:'center'}}>Projects<a className='light' style={{fontSize:14}} href={socialdata[2].link}>View more</a></p>
       <ul style={{ flexDirection: 'column' }}>
         {prodata.map((data, index) => (
           <div className="con">
