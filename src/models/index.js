@@ -121,17 +121,25 @@ export const prodata = [
     name: 'Chefy',
     link: 'https://chefy-roan.vercel.app/',
     tech: ['Python', 'Yolo', 'Tensorflow', 'FastAPI', 'NextJS'],
-    desc: 'Indian Food Recommendation by Ingredient Detection',
+    desc: 'Indian Food Recommendation by Ingredient Detection.',
   },
   {
     name: 'VASSIST',
-    link: 'https://chefy-roan.vercel.app/',
-    tech: ['YoloV5', 'Tensorflow', 'FastAPI', 'NextJS'],
+    link: 'https://vassist-mu.vercel.app/materials',
+    tech: ['Firebase Auth', 'Google Console', 'NextJS'],
+    desc: 'PYQ and Study Material Platform for VIT Chennai.',
   },
   {
-    name: 'VIT FFCS Planner',
-    link: 'https://chefy-roan.vercel.app/',
+    name: 'VSCHEDULE',
+    link: 'https://vschedule.vercel.app/',
     tech: ['ReactJS', 'Javascript', 'Local Storage'],
+    desc: 'VIT FFCS Timetable efficient planner along with conflict management and generation with backtracking.',
+  },
+  {
+    name: 'Launchly',
+    link: 'https://github.com/Yashvanthk05/launchly',
+    tech: ['EC2', 'API Gateway', 'S3', 'Lambda', 'ReactJS', 'ExpressJS', 'Javascript'],
+    desc: 'Automated Web Deployment platform using AWS, Inspired by Vercel.',
   },
 ];
 
@@ -139,20 +147,20 @@ export const certdata = [
   {
     name: 'CS50x: Introduction to Computer Science',
     img: 'CS50p.png',
-    org:'Harvard University',
-    issue:'May 2025'
+    org: 'Harvard University',
+    issue: 'May 2025',
   },
   {
     name: 'CS50p: Introduction to Programming with Python',
     img: 'CS50p.png',
-    org:'Harvard University',
-    issue:'May 2025'
+    org: 'Harvard University',
+    issue: 'May 2025',
   },
   {
     name: 'The Complete Full-Stack Web Development',
     img: 'web.jpg',
-    org:'Angela Yu (Udemy)',
-    issue:'May 2025'
+    org: 'Angela Yu (Udemy)',
+    issue: 'May 2025',
   },
 ];
 
