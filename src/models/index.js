@@ -47,7 +47,7 @@ export const edudata = [
     name: 'Vellore Institute of Technology',
     from: 'June, 2023',
     to: 'Present',
-    grade: 9.75,
+    grade: 9.77,
     metric: 'CGPA',
     addr: 'Chennai, Tamilnadu',
     degree: 'Computer Science with Specialisation in Artifical Intelligence and Machine Learning',
@@ -78,6 +78,15 @@ export const edudata = [
 ];
 
 export const expdata = [
+  {
+    logo: 'vit.png',
+    name: 'Daira Edtech Ltd.',
+    position: 'Full Stack Developer',
+    from: 'May, 2025',
+    to: 'August, 2025',
+    org: 'Chennai',
+    addr: 'Tamilnadu',
+  },
   {
     logo: 'vit.png',
     name: 'Center for Cyber Physical Systems',
