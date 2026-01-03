@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.f773f528.css",
-    "main.js": "/static/js/main.4d86a856.js",
-    "index.html": "/index.html",
-    "main.f773f528.css.map": "/static/css/main.f773f528.css.map",
-    "main.4d86a856.js.map": "/static/js/main.4d86a856.js.map"
+    "main.css": "/yashix/static/css/main.f773f528.css",
+    "main.js": "/yashix/static/js/main.4d86a856.js",
+    "index.html": "/yashix/index.html",
+    "main.f773f528.css.map": "/yashix/static/css/main.f773f528.css.map",
+    "main.4d86a856.js.map": "/yashix/static/js/main.4d86a856.js.map"
   },
   "entrypoints": [
     "static/css/main.f773f528.css",
