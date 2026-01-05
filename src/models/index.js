@@ -47,7 +47,7 @@ export const edudata = [
     name: 'Vellore Institute of Technology',
     from: 'June, 2023',
     to: 'Present',
-    grade: 9.77,
+    grade: 9.78,
     metric: 'CGPA',
     addr: 'Chennai, Tamilnadu',
     degree: 'Computer Science with Specialisation in Artifical Intelligence and Machine Learning',
