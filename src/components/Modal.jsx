@@ -7,7 +7,7 @@ const Modal = ({ src,setSrc }) => {
       <button className='modal-close' onClick={()=>setSrc('')}>
         <IoClose size={26} />
       </button>
-      <img src={src} className='modalimg'/>
+      <img src={src} className='modalimg' alt={src}/>
     </div>
   );
 };
