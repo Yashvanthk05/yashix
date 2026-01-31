@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://yashix.me/yashix",
+  "homepage": "http://yashix.me/yashix",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
