@@ -11,11 +11,12 @@ const Sidebar = () => {
       <div>
         <div className="sidetop">
           <p id="name">
-            {sidedata.name} <span id="honor">{sidedata.honor}</span>
+            {sidedata.name}
+            {/* <span id="honor">{sidedata.honor}</span> */}
           </p>
-          <p>{sidedata.desc}</p>
+          <p style={{ fontWeight: 'bold' }}>{sidedata.desc}</p>
           <button className="cv">
-            <a href={sidedata.cv} target='_blank' rel='noreferrer'>
+            <a href={sidedata.cv} target="_blank" rel="noreferrer">
               <IoMdOpen size={18} /> Open Resume
             </a>
           </button>

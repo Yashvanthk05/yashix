@@ -13,7 +13,7 @@ const Projects = () => {
               <span style={{ fontWeight: 600, fontSize: 14 }}>Description: </span>
               {data.desc}
             </p>
-            <ul>
+            <ul style={{display:'flex',flexWrap:'wrap'}}>
               {data.tech.map((item, idx) => (
                 <li key={idx} className="tech">
                   {item}
