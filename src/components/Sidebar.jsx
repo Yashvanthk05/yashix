@@ -21,7 +21,7 @@ const Sidebar = () => {
             </a>
           </button>
         </div>
-        <div className="sideless">
+        <div className="sideless contact">
           <p>
             <CiLocationOn size={18} /> {sidedata.address}
           </p>
