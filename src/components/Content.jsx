@@ -9,15 +9,20 @@ const Content = () => {
   return (
     <div id="content">
       <About />
-      <hr />
+      <br/>
+      <br/>
       <Education />
-      <hr />
+      <br/>
+      <br/>
       <Experience />
-      <hr />
+      <br/>
+      <br/>
       <Projects />
-      <hr/>
+      <br/>
+      <br/>
       <Certification/>
-      <hr/>
+      <br/>
+      <br/>
       <Achievements/>
     </div>
   );

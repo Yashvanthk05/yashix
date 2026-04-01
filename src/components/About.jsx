@@ -1,4 +1,3 @@
-import React from 'react';
 import { aboutdata } from '../models';
 
 const About = () => {

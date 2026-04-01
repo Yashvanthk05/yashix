@@ -34,7 +34,7 @@ const Education = () => {
                   <a className="eduname" href={data.link}>
                     {data.name}
                   </a>
-                  <span className="light">
+                  <span className="light date">
                     {data.from} - {data.to}
                   </span>
                 </div>

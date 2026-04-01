@@ -1,35 +1,27 @@
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si';
+
 
 export const socialdata = [
   {
     name: 'linkedin',
     link: 'https://www.linkedin.com/in/yashix/',
     icon: <FaLinkedinIn className="navicon" />,
-  },
-  {
-    name: 'leetcode',
-    link: 'https://leetcode.com/u/Yashvanthk05/',
-    icon: <SiLeetcode className="navicon" />,
+    username:"yashix"
   },
   {
     name: 'github',
     link: 'https://github.com/Yashvanthk05/',
     icon: <FaGithub className="navicon" />,
-  },
-  {
-    name: 'codechef',
-    link: 'https://www.geeksforgeeks.org/user/user_lcqwk8vi60o/?_gl=1*wfllyb*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4vU8o0-NgHinG7jwha81FqZPzH9vzwAh1bPUybX9siYncDIfFoKOExoCxhoQAvD_BwE',
-    icon: <SiGeeksforgeeks className="navicon" />,
-  },
+    username:"Yashvanthk05"
+  }
 ];
 
 export const sidedata = {
   name: 'Yashvanth Karunakaran',
-  profile: 'pfp.png',
+  // profile: 'pfp.png',
   address: 'Chennai, Tamilnadu',
   cv: 'resume.pdf',
-  desc: 'Engineer',
+  desc: 'Software Developer',
   honor: 'He/Him',
   mail: 'yashvanthk05@gmail.com',
   phone: '91+9025242514',
@@ -37,7 +29,7 @@ export const sidedata = {
 
 export const aboutdata = [
   'Undergraduate in Computer Science (AIML)',
-  'Enjoy writing clean, simple, and optimized code',
+  'Backend engineer who enjoys building scalable systems and clean architecture',
   'Interested in System design, AI/ML, Development and problem solving',
 ];
 
@@ -45,19 +37,19 @@ export const edudata = [
   {
     logo: 'vit.png',
     name: 'Vellore Institute of Technology',
-    from: 'June, 2023',
+    from: 'Jun, 2023',
     to: 'Present',
     grade: 9.78,
     metric: 'CGPA',
     addr: 'Chennai, Tamilnadu',
-    degree: 'Computer Science with Specialisation in Artifical Intelligence and Machine Learning',
+    degree: 'CSE AIML',
     link: 'https://chennai.vit.ac.in/',
   },
   {
     logo: 'devi.png',
     name: 'Devi Academy Senior Secondary School',
-    from: 'April, 2022',
-    to: 'April, 2023',
+    from: 'Apr, 2022',
+    to: 'Apr, 2023',
     grade: 96.2,
     metric: '%',
     addr: 'Chennai, Tamilnadu',
@@ -67,8 +59,8 @@ export const edudata = [
   {
     logo: 'devi.png',
     name: 'Devi Academy Senior Secondary School',
-    from: 'April, 2020',
-    to: 'April, 2021',
+    from: 'Apr, 2020',
+    to: 'Apr, 2021',
     grade: 97.6,
     metric: '%',
     addr: 'Chennai, Tamilnadu',
@@ -81,9 +73,9 @@ export const expdata = [
   {
     logo: 'vit.png',
     name: 'Daira Edtech Ltd.',
-    position: 'Full Stack Developer',
+    position: 'Full Stack Dev',
     from: 'May, 2025',
-    to: 'August, 2025',
+    to: 'Aug, 2025',
     org: 'Chennai',
     addr: 'Tamilnadu',
   },
@@ -119,13 +111,37 @@ export const expdata = [
     name: 'Open Source Programming Club',
     position: 'AI/ML Engineer',
     from: 'May, 2025',
-    to: 'Present',
+    to: 'Jan, 2026',
     org: 'Vellore Institute of Technology',
     addr: 'Chennai, Tamilnadu',
   },
 ];
 
 export const prodata = [
+  {
+    name: 'AuraLearn',
+    link: 'https://github.com/Yashvanthk05/aura-learn',
+    tech: ['FastAPI', 'FAISS', 'BM25', 'TF-IDF', 'Whisper', 'Python'],
+    desc: 'Document Intelligence & RAG Backend with hybrid retrieval, multi-format ingestion, and audio transcription.',
+  },
+  {
+    name: 'Channel',
+    link: 'https://github.com/Yashvanthk05/channel',
+    tech: ['ExpressJS', 'NodeJS', 'MongoDB', 'JWT', 'Zod', 'REST API'],
+    desc: 'Markdown Blogging Platform with JWT auth, schema-validated CRUD APIs, and modular REST API design.',
+  },
+  {
+    name: 'Launchly',
+    link: 'https://github.com/Yashvanthk05/launchly',
+    tech: ['EC2', 'API Gateway', 'S3', 'Lambda', 'ReactJS', 'ExpressJS', 'Javascript'],
+    desc: 'Automated Web Deployment platform using AWS, Inspired by Vercel.',
+  },
+  {
+    name: 'VSCHEDULE',
+    link: 'https://vschedule.vercel.app/',
+    tech: ['ReactJS', 'Javascript', 'Local Storage'],
+    desc: 'VIT FFCS Timetable efficient planner along with conflict management and generation with backtracking.',
+  },
   {
     name: 'Chefy',
     link: 'https://chefy-roan.vercel.app/',
@@ -137,18 +153,6 @@ export const prodata = [
     link: 'https://vassist-mu.vercel.app/materials',
     tech: ['Firebase Auth', 'Google Console', 'NextJS'],
     desc: 'PYQ and Study Material Platform for VIT Chennai.',
-  },
-  {
-    name: 'VSCHEDULE',
-    link: 'https://vschedule.vercel.app/',
-    tech: ['ReactJS', 'Javascript', 'Local Storage'],
-    desc: 'VIT FFCS Timetable efficient planner along with conflict management and generation with backtracking.',
-  },
-  {
-    name: 'Launchly',
-    link: 'https://github.com/Yashvanthk05/launchly',
-    tech: ['EC2', 'API Gateway', 'S3', 'Lambda', 'ReactJS', 'ExpressJS', 'Javascript'],
-    desc: 'Automated Web Deployment platform using AWS, Inspired by Vercel.',
   },
 ];
 
