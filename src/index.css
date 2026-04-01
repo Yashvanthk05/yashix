@@ -8,57 +8,28 @@
   --peach: #fab387;
   --yellow: #f9e2af;
   --green: #a6e3a1;
-  --teal: #94e2d5;
+  --teal: #000000;
   --sky: #89dceb;
   --sapphire: #74c7ec;
   --blue: #89b4fa;
-  --lavender: #b4befe;
-  --text: #cdd6f4;
+  --lavender: #000000;
+  --text: #707070;
   --subtext1: #bac2de;
   --subtext0: #a6adc8;
   --overlay2: #9399b2;
   --overlay1: #7f849c;
-  --overlay0: #6c7086;
-  --surface2: #585b70;
+  --overlay0: #ffffff;
+  --surface2: #c4c4c4;
   --surface1: #45475a;
-  --surface0: #252533;
-  --base: #1e1e2e;
-  --mantle: #181825;
-  --crust: #11111b;
+  --surface0: #efefef;
+  --base: #ffffff;
+  --mantle: #ffffff;
+  --crust: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --rosewater: #f5e0dc;
-    --flamingo: #f2cdcd;
-    --pink: #f5c2e7;
-    --mauve: #cba6f7;
-    --red: #f38ba8;
-    --maroon: #eba0ac;
-    --peach: #fab387;
-    --yellow: #f9e2af;
-    --green: #a6e3a1;
-    --teal: #94e2d5;
-    --sky: #89dceb;
-    --sapphire: #74c7ec;
-    --blue: #89b4fa;
-    --lavender: #b4befe;
-    --text: #cdd6f4;
-    --subtext1: #bac2de;
-    --subtext0: #a6adc8;
-    --overlay2: #9399b2;
-    --overlay1: #7f849c;
-    --overlay0: #6c7086;
-    --surface2: #585b70;
-    --surface1: #45475a;
-    --surface0: #252533;
-    --base: #1e1e2e;
-    --mantle: #181825;
-    --crust: #11111b;
-  }
-}
 
-[data-theme='dark'] {
+/* catpuchin mocha theme
+:root {
   --rosewater: #f5e0dc;
   --flamingo: #f2cdcd;
   --pink: #f5c2e7;
@@ -86,35 +57,7 @@
   --mantle: #181825;
   --crust: #11111b;
 }
-/* 
-[data-theme='light'] {
-  --rosewater: #dc8a78;
-  --flamingo: #dd7878;
-  --pink: #ea76cb;
-  --mauve: #8839ef;
-  --red: #d20f39;
-  --maroon: #e64553;
-  --peach: #fe640b;
-  --yellow: #df8e1d;
-  --green: #40a02b;
-  --teal: #000000;
-  --sky: #04a5e5;
-  --sapphire: #209fb5;
-  --blue: #000000;
-  --lavender: #000000;
-  --text: #4c4f69;
-  --subtext1: #5c5f77;
-  --subtext0: #6c6f85;
-  --overlay2: #7c7f93;
-  --overlay1: #5b5c5e;
-  --overlay0: #9ca0b0;
-  --surface2: #acb0be;
-  --surface1: #bcc0cc;
-  --surface0: #ccd0da;
-  --base: #f7f7f7;
-  --mantle: #eeeff1;
-  --crust: #dce0e8;
-} */
+*/
 
 * {
   margin: 0px;
@@ -122,16 +65,24 @@
   box-sizing: border-box;
 }
 
-.manrope-font {
+/* .manrope-font {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Anthropic';
+  src: url('../public/fonts/anthropic_font.woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
   margin: 0;
-  font-family: "Manrope", sans-serif;
+  font-family: "Anthropic", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--crust);
@@ -187,6 +138,7 @@ ul {
 #sidebar {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 10px;
   padding: 75px 50px;
@@ -197,6 +149,7 @@ ul {
   background-color: var(--base);
   margin: 10px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 20px;
   height: calc(100vh-60px);
   overflow-y: scroll;
@@ -274,6 +227,7 @@ a {
 .sideless > p > a,
 .prodesc {
   color: var(--overlay1);
+  font-size: 16px;
 }
 
 hr {
@@ -313,6 +267,7 @@ hr {
 .con {
   padding: 15px;
   background-color: var(--mantle);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   border-radius: 10px;
   display: flex;
   gap: 5px;
@@ -376,6 +331,10 @@ hr {
   top: 20px;
   left: 20px;
   font-weight: 600;
+}
+
+.date{
+  font-size: 15px;
 }
 
 .sidetop {
