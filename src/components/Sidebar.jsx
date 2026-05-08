@@ -7,7 +7,7 @@ import { IoMdOpen } from 'react-icons/io';
 const Sidebar = () => {
   return (
     <div id="sidebar">
-      {/* <img src={sidedata.profile} id="pf" alt="profile" /> */}
+      <img src={sidedata.profile} id="pf" alt="profile" />
       <div>
         <div className="sidetop">
           <p id="name">

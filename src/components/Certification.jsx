@@ -14,8 +14,8 @@ const Certification = () => {
             {/* <img src={data.img} className='certimg' alt={data.name}/> */}
             <div>
               <p className='eduname'>{data.name}</p>
-              <p className='light' style={{fontWeight:600}}>{data.org}</p>
-              <p className='light'>{data.issue}</p>
+              <p className='light eduname' style={{fontWeight:600}}>{data.org}</p>
+              <p className='light eduname'>{data.issue}</p>
             </div>
           </div>
         ))}

@@ -39,7 +39,7 @@ const Education = () => {
                   </span>
                 </div>
                 <p className="eduname">{data.addr}</p>
-                <p className="light" style={{ fontWeight: 600 }}>
+                <p className="light eduname" style={{ fontWeight: 600 }}>
                   {data.degree}
                 </p>
                 <p className="light">

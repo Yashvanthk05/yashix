@@ -18,7 +18,7 @@ export const socialdata = [
 
 export const sidedata = {
   name: 'Yashvanth Karunakaran',
-  // profile: 'pfp.png',
+  profile: 'pf.png',
   address: 'Chennai, Tamilnadu',
   cv: 'resume.pdf',
   desc: 'Software Developer',

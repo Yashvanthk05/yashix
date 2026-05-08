@@ -38,10 +38,10 @@ const Experience = () => {
                   </span>
                 </div>
                 <p className="eduname">{data.position}</p>
-                <p className="light" style={{ fontWeight: 600 }}>
+                <p className="light eduname" style={{ fontWeight: 600 }}>
                   {data.org}
                 </p>
-                <p className="light">{data.addr}</p>
+                <p className="light eduname">{data.addr}</p>
               </div>
             </div>
           </li>
