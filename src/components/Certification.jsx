@@ -13,7 +13,7 @@ const Certification = () => {
           <div className='con' style={{flexDirection:'row',gap:10,cursor:'pointer',width:'100%'}} key={index} onClick={()=>setSrc(data.img)}>
             {/* <img src={data.img} className='certimg' alt={data.name}/> */}
             <div>
-              <p className='eduname'>{data.name}</p>
+              <p className='eduname' style={{ fontSize: '18px' }}>{data.name}</p>
               <p className='light eduname' style={{fontWeight:600}}>{data.org}</p>
               <p className='light eduname'>{data.issue}</p>
             </div>

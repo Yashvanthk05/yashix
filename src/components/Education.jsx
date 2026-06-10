@@ -28,10 +28,12 @@ const Education = () => {
                     display: 'flex',
                     justifyContent: 'space-between',
                     alignItems: 'center',
+                    flexWrap: 'wrap',
+                    gap: '5px',
                     width: '100%',
                   }}
                 >
-                  <a className="eduname" href={data.link}>
+                  <a className="eduname" href={data.link} style={{ fontSize: '18px' }}>
                     {data.name}
                   </a>
                   <span className="light date">

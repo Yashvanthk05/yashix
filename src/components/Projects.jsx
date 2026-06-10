@@ -7,7 +7,7 @@ const Projects = () => {
       <ul style={{ flexDirection: 'column' }}>
         {prodata.map((data, index) => (
           <div className="con" key={index}>
-            <p className="eduname">{data.name}</p>
+            <p className="eduname" style={{ fontSize: '18px' }}>{data.name}</p>
             <p className="prodesc">
               <span style={{ fontWeight: 600, fontSize: 16 }}>Description: </span>
               {data.desc}

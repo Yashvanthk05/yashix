@@ -8,16 +8,16 @@ const Achievements = () => {
   return (
     <div className="section">
       <p className="sechead">Achievements</p>
-      <div id="certificates" style={{width:'100%'}}>
+      <div id="certificates" style={{ width: '100%' }}>
         {achievedata.map((data, index) => (
           <div
             className="con"
-            style={{ flexDirection: 'row', gap: 10, width:'100%',cursor:'pointer' }}
+            style={{ flexDirection: 'row', gap: 10, width: '100%', cursor: 'pointer' }}
             key={index}
             onClick={() => setSrc(data.img)}
           >
             <div>
-              <p className="eduname">{data.name}</p>
+              <p className="eduname" style={{ fontSize: '18px' }}>{data.name}</p>
               <p className="light eduname" style={{ fontWeight: 600 }}>
                 {data.org}
               </p>
