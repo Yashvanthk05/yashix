@@ -159,8 +159,8 @@ export const certdata = [
   {
     name: 'AWS Solutions Architect',
     img: 'AWS.png',
-    org: 'Harvard University',
-    issue: 'May 2025',
+    org: 'Amazon Web Services',
+    issue: 'June 2026',
   },
   {
     name: 'CS50x: Introduction to Computer Science',
