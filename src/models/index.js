@@ -1,19 +1,18 @@
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
-
 export const socialdata = [
   {
     name: 'linkedin',
     link: 'https://www.linkedin.com/in/yashix/',
     icon: <FaLinkedinIn className="navicon" />,
-    username:"yashix"
+    username: 'yashix',
   },
   {
     name: 'github',
     link: 'https://github.com/Yashvanthk05/',
     icon: <FaGithub className="navicon" />,
-    username:"Yashvanthk05"
-  }
+    username: 'Yashvanthk05',
+  },
 ];
 
 export const sidedata = {
@@ -39,7 +38,7 @@ export const edudata = [
     name: 'Vellore Institute of Technology',
     from: 'Jun, 2023',
     to: 'Present',
-    grade: 9.78,
+    grade: 9.79,
     metric: 'CGPA',
     addr: 'Chennai, Tamilnadu',
     degree: 'CSE AIML',
@@ -157,6 +156,12 @@ export const prodata = [
 ];
 
 export const certdata = [
+  {
+    name: 'AWS Solutions Architect',
+    img: 'AWS.png',
+    org: 'Harvard University',
+    issue: 'May 2025',
+  },
   {
     name: 'CS50x: Introduction to Computer Science',
     img: 'CS50p.png',
